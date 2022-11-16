@@ -1,11 +1,13 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import Mobilenav from "../components/Mobilenav";
 
 export default function Home() {
   return (
     <div className="bg-gradient-to-tr from-red-500 to-orange-400 ">
       <Nav />
+      <Mobilenav />
       <section className="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
         <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
           <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">

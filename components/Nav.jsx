@@ -34,28 +34,6 @@ const Nav = () => {
           >
             Get Started
           </a>
-          <button className="block hamburger md:hidden focus:outline-none">
-            <GiHamburgerMenu />
-          </button>
-        </div>
-        <div className="md:hidden">
-          <div className="absolute flex-col items-center self-end hidden py-4 mt-12 space-y-6 font-bold bg-gradient-to-r from-orange-500 to-red-500">
-            <a href="#" className="hover:underline decoration-1  font-semibold">
-              Pricing
-            </a>
-            <a href="#" className="hover:underline decoration-1  font-semibold">
-              Product
-            </a>
-            <a href="#" className="hover:underline decoration-1  font-semibold">
-              About Us
-            </a>
-            <a href="#" className="hover:underline decoration-1  font-semibold">
-              Careers
-            </a>
-            <a href="#" className="hover:underline decoration-1  font-semibold">
-              Community
-            </a>
-          </div>
         </div>
       </nav>
     </div>
